@@ -1,0 +1,5 @@
+{
+  "name": "BioGenesis: 进化工程师",
+  "description": "一款生物进化策略模拟游戏。通过编辑基因序列，借助 Gemini AI，培育出能在随机生成的极端星球环境中生存的生物。",
+  "requestFramePermissions": []
+}
