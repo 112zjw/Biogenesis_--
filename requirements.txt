@@ -1,0 +1,3 @@
+# Biogenesis 游戏依赖
+# Python 3.6+
+# 无需额外依赖，使用Python标准库
