@@ -5,7 +5,10 @@ Biogenesis 游戏测试脚本
 """
 
 import sys
-sys.path.insert(0, '/home/runner/work/Biogenesis_--/Biogenesis_--')
+import os
+
+# 添加当前目录到路径以支持导入
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from biogenesis import DNA, Organism, Environment, Game
 

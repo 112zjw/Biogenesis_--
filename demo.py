@@ -5,7 +5,10 @@ Biogenesis 游戏演示脚本
 """
 
 import sys
-sys.path.insert(0, '/home/runner/work/Biogenesis_--/Biogenesis_--')
+import os
+
+# 添加当前目录到路径以支持导入
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from biogenesis import DNA, Organism, Environment
 
@@ -26,7 +29,7 @@ def demo_game():
     print("【物种创建】")
     org1 = Organism("物种-1", DNA("ATCGATCGATCGATCGATCG"))
     org2 = Organism("物种-2", DNA("GCGCGCGCGCGCGCGCGCGC"))
-    org3 = Organism("物种-3", DNA("ATATATATATATATATATATAT"))
+    org3 = Organism("物种-3", DNA("ATATATATATATATATATAT"))
     
     organisms = [org1, org2, org3]
     
